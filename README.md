@@ -18,6 +18,6 @@ API_TOKEN='XXXXX-XXXX-XXXX-XXXX-XXXXXXXX'
 
 4. Run the script
 ```
-python3 ./tw-get-statement.py
+python3 ./tw-get-statement.py EUR
 ```
 
