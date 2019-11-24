@@ -11,9 +11,9 @@ pip3 install -r requirements.txt
 
 2. Generate a personal token in your [settings page](https://transferwise.com/user/settings) on the TransferWise site
 
-3. Edit the script and add your personal token near the top of the script
+3. Edit the file "i\_auth.py" and replace the X's with your personal token in this file
 ```
-API_TOKEN='XXXXX-XXXX-XXXX-XXXX-XXXXXXXX'
+API_TOKEN='123456-1234-1234-123456'
 ```
 
 4. Run the script

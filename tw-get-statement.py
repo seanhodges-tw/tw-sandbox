@@ -10,8 +10,6 @@ Options:
 
 """
 
-API_TOKEN='XXXXXXX-XXXX-XXXX-XXXXXX'
-
 SERVER = 'https://transferwise.com/gateway'
 
 import requests
@@ -21,6 +19,7 @@ import tempfile
 import csv
 import prettytable
 from docopt import docopt
+from _auth import API_TOKEN
 
 arguments = docopt(__doc__, version='tw-get-statement 1.0')
 
