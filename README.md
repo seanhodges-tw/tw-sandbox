@@ -16,9 +16,13 @@ pip3 install -r requirements.txt
 API_TOKEN='123456-1234-1234-123456'
 ```
 
-4. Run the script
+4. Run a script, try the tw-get-statement.py one for example:
 ```
 python3 ./tw-get-statement.py EUR
+```
+
+If all goes well, you'll get a response like this:
+```
 EUR activity since 2019-10-25 11:45:49
 +------------+--------+------------------------------------------------------------------------+-----------------+
 |    Date    | Amount | Description                                                            | Running Balance |
